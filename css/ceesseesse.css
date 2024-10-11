@@ -1,0 +1,330 @@
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #111;
+}
+
+.hero {
+    position: relative;
+    height: 100vh; 
+    background-image: url('../imagens/Banner.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    z-index: 2;
+    }
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-image {
+    width: 300px;
+    height: 300px;
+    max-width: 1000px;
+    display: block;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.produtos {
+    position: relative;
+    background-image: url('../imagens/Skulls_grayscale.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.produto-card {
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.infograficos {
+    padding: 20px;
+}
+
+.comunidade {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #222;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.imgquadrada {
+    height: 225px;
+    width: 225px;
+}
+
+.secao2{
+    background-color:#111 ;
+    height: 800px;
+    width: 95%;
+}
+
+.cubao1{
+    align-items:center;
+    background-color: #f00;
+    height: 90%;
+    width: 33%;
+}
+
+#QeQaudrinhos {
+    position: relative;
+    width: 100%;
+    height: 300px; 
+}
+
+.secao2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.divdentro{
+    width: 33%; 
+    height: 600px;
+    background-color: rgb(83, 57, 57); 
+    position: absolute;
+    top: 5%; 
+    left: 0;
+}
+
+/* .section-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.highlight {
+    flex: 1 1 45%;
+    background-color: #e0e0e0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+}
+
+.highlight p {
+    font-weight: bold;
+}
+
+.item {
+    flex: 1 1 22%;
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+}
+
+.item h3 {
+    margin: 10px 0;
+}
+
+.item p {
+    font-size: 14px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Darkthrone {
+    background-image:url('imagens/Panzerfaust.jpg');
+    background-size: cover;
+}
+#IronMaiden{
+    background-image:url('imagens/BookOFSouls.jpg');
+    background-size: cover;
+}
+
+#JD{
+    background-image:url('imagens/JoyDivision.jpg');
+    background-size: cover;
+}
+
+#Sleep{
+    background-image:url('imagens/HolyMountain.jpg');
+    background-size: cover;
+}
+
+#MRS{
+    background-image:url('imagens/mrs.jpg');
+    background-size: cover;
+}
+
+#Emperor{
+    background-image:url('imagens/AsTheShadowsRise.jpg');
+    background-size: cover;
+}
+*/
+#cor{
+    position: relative;
+    background-image: url('../imagens/Skulls.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+    }
+    
+    #div1 { 
+        grid-area: 6 / 1 / 8 / 3; 
+    }
+    #div2 { 
+        grid-area: 6 / 3 / 8 / 5; 
+    }
+    #div3 { 
+        grid-area: 1 / 1 / 6 / 3; 
+    }
+    #div4 { 
+        grid-area: 6 / 5 / 8 / 7;
+     }
+    #div5 { 
+        grid-area: 2 / 4 / 5 / 6; 
+    } 
+
+.Vermelhao {
+    background-color: #f00;
+    width: 10px;
+    height: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.main-imagem {
+    margin: 10px;
+}
+.main-imagem img {
+    width: 60%;
+}
+
+.container h2  {
+    display: flexbox;
+    align-items: center;
+}
+
+
+
+.baixo {
+    display: flex;
+    width: 100%;
+    height: 200px; 
+    border: 1px solid #ccc;
+}
+.aske {
+    width: 48%;
+    height: 100%;
+
+}
+.aske img {
+    width: 100%;
+    height: 100%;
+}
+.par {
+    padding: 10px;
+    flex: 1; 
+}
+.par h2 {
+    margin: 0;
+}
+.par p {
+    margin: 5px 0 0 0;
+}
